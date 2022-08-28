@@ -17,7 +17,7 @@ def blur():
         dir_test = os.path.exists(pic)
         if dir_test is True:
             img = cv2.imread(pic)
-            blur_img = cv2.GaussianBlur(img,(5,55),)
+            blur_img = cv2.GaussianBlur(img,(5,55),0)
             status = cv2.imwrite(pic, resized_img)
             print(f"""
                     |-----------------------|

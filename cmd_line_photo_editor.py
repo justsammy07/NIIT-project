@@ -56,4 +56,4 @@ while True:
     elif chose.lower() == "blur":
         blur()
     elif chose.lower() == "gray":
-        gray_scale()
+        gray_scale(

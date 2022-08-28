@@ -1,5 +1,5 @@
 import cv2
-import os.path
+import os.pat
 
 def gray_scale():
     while True:

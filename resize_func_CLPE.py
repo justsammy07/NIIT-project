@@ -2,7 +2,7 @@ import os.path
 import cv2
 
 def resize_small():
-    scale_percent = 45
+    scale_percent = 40
     while True:
         pic = input("""
     |-------------------------|
